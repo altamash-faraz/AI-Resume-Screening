@@ -1,0 +1,9 @@
+# Core Libraries
+streamlit         # For creating the web-based UI
+PyPDF2           # For extracting text from PDF resumes
+pandas           # For handling tabular data
+numpy            # For numerical operations
+scikit-learn     # For implementing TF-IDF and cosine similarity
+
+# Additional Dependencies (if needed)
+nltk             # For text preprocessing (stopword removal, stemming)
