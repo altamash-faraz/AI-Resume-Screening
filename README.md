@@ -1,64 +1,66 @@
+# 📄 AI Resume Screening & Ranking System
 
-# **📄 AI-Powered Resume Screening & Ranking System**  
+Rank resumes based on job descriptions using AI-powered similarity matching. Built with Streamlit for an interactive web experience.
 
-### **🚀 Overview**  
-This **AI-powered resume screening system** uses **TF-IDF vectorization** and **cosine similarity** to rank resumes based on a given **job description**. The project is built using **Streamlit**, allowing an intuitive web-based user interface for HR professionals and recruiters to shortlist candidates efficiently.
+## Features
 
----
+- Upload multiple PDF resumes
+- Enter a job description
+- AI ranks resumes by similarity to the job description
+- Color-coded ranking table
 
-### **📌 Features**  
-✅ **Upload Multiple Resumes (PDF format)**  
-✅ **Extract Text from Resumes Automatically**  
-✅ **Compare Resumes with Job Descriptions Using AI**  
-✅ **Rank Candidates Based on Relevance**  
-✅ **Color-Coded Ranking Table for Easy Interpretation**  
-✅ **Simple & Interactive Web UI using Streamlit**  
+## Demo Screenshot
 
----
+![Demo Screenshot](demo_screenshot.png) <!-- Add screenshot if available -->
 
-### **🛠️ Technologies Used**  
-- **Python** 🐍  
-- **Streamlit** 🎨 (for web-based UI)  
-- **PyPDF2** 📄 (to extract text from PDF resumes)  
-- **Scikit-learn** 🤖 (for TF-IDF vectorization & cosine similarity)  
-- **Pandas** 📊 (to manage and display ranked resumes)  
+## Getting Started
 
----
+### Prerequisites
 
-### **📂 Installation & Setup**  
+- Python 3.8+
+- The following Python packages (see `requirements.txt`):
+  - streamlit
+  - PyPDF2
+  - pandas
+  - scikit-learn
 
-#### **🔹 Step 1: Clone the Repository**  
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/altamash-faraz/AI-Resume-Screening.git
+   cd AI-Resume-Screening
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running Locally
+
 ```bash
-git clone https://github.com/your-username/AI-Resume-Screening.git
-cd AI-Resume-Screening
+streamlit run AI-Resume-Screening.py
 ```
 
-#### **🔹 Step 2: Install Required Packages**  
-```bash
-pip install -r requirements.txt
-```
+Open the provided local URL in your browser.
 
-#### **🔹 Step 3: Run the Streamlit App**  
-```bash
-streamlit run app.py
-```
+## Deploying for Free (Streamlit Community Cloud)
 
-Now, open **http://localhost:8501/** in your browser to start using the app! 🎉  
+1. Go to [Streamlit Cloud](https://streamlit.io/cloud)
+2. Sign in with GitHub and create a new app
+3. Select your repository and set the main file to `AI-Resume-Screening.py`
+4. Streamlit will auto-install from `requirements.txt` and deploy your app
 
----
+## Usage
 
-### **📝 How It Works?**  
-1️⃣ **Upload multiple resumes (PDF format).**  
-2️⃣ **Enter a job description in the text box.**  
-3️⃣ **Click to process the resumes.**  
-4️⃣ **The system ranks resumes based on AI similarity matching.**  
-5️⃣ **Results are displayed in a color-coded table.**  
+1. Enter the job description in the left panel
+2. Upload one or more PDF resumes in the right panel
+3. View ranked resumes in the results table
 
----
+## License
 
-### **🤖 Future Enhancements**  
-- ✅ **Keyword-based ranking with NLP**  
-- ✅ **Resume Parsing with AI for better results**  
-- ✅ **Integration with ATS (Applicant Tracking Systems)**  
+MIT
 
----
+## Author
+
+[altamash-faraz](https://github.com/altamash-faraz)
