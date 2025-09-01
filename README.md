@@ -5,6 +5,21 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)](https://streamlit.io)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Try_Now!-brightgreen.svg)](https://ai-resume-screen.streamlit.app/)
+
+**🚀 Smart AI-powered resume ranking system that matches candidates to job descriptions with precision! 📊**
+
+**🌟 [Try the Live Demo Here!](https://ai-resume-screen.streamlit.app/) 🌟**
+
+*Built with ❤️ using Machine Learning and Streamlit*
+
+</div>e Screening & Ranking System ⭐
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)](https://streamlit.io)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **🚀 Smart AI-powered resume ranking system that matches candidates to job descriptions with precision! 📊**
 
@@ -65,6 +80,10 @@ streamlit run AI-Resume-Screening.py
 ## 🌐 Deploy for FREE
 
 ### 🔥 Streamlit Community Cloud (Recommended)
+
+🎉 **This project is already live!** → [**Try it now!**](https://ai-resume-screen.streamlit.app/)
+
+**Want to deploy your own version?**
 
 1. 🌟 Visit [Streamlit Cloud](https://streamlit.io/cloud)
 2. 🔗 Connect your GitHub account
