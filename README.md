@@ -13,18 +13,6 @@
 
 *Built with ❤️ using Machine Learning and Streamlit*
 
-</div>e Screening & Ranking System ⭐
-
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-red.svg)](https://streamlit.io)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-**🚀 Smart AI-powered resume ranking system that matches candidates to job descriptions with precision! 📊**
-
-_Built with ❤️ using Machine Learning and Streamlit_
-
 </div>
 
 ---
